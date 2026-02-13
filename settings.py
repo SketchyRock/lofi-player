@@ -1,3 +1,9 @@
+"""Settings module for mp3 player.
+
+Author: SketchyRock
+Date: 2/12/2026
+"""
+
 import json
 import os
 from time import sleep

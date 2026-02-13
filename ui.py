@@ -1,3 +1,9 @@
+"""ui module for mp3 player.
+
+Author: SketchyRock
+Date: 2/12/2026
+"""
+
 try:
     import curses
 except ImportError:
