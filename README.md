@@ -9,7 +9,7 @@ This project is a lightweight music player that automatically loads and plays au
 
 * **Auto-Loading**: Scans the music/ folder automatically for MP3 files.
 
-* **Minimalist**: Runs entirely through a single Python script.
+* **Minimalist**: A lightweight terminal-based player.
 
 * **Local Playback**: No internet required; plays your personal lofi collection.
 
@@ -17,16 +17,14 @@ This project is a lightweight music player that automatically loads and plays au
 
 ## Setup & Installation
 
-### 1. Requirements
+### 1. Prerequisites
 
 * Python 3.13+
-* curses
-* pygame
+* `curses` library (usually included with Python on Linux/macOS)
 
+### 2. Installation
 ```bash
-python3 -m pip install pygame
-python3 -m pip install curses
-
+python3 -m pip install -r requirements.txt
 ```
 
 ### 2. Music Configuration
